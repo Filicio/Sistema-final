@@ -77,6 +77,6 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
-    <script type="text/javascript">$('select').select2();</script>
+   @yield('scripts')
 </body>
 </html>

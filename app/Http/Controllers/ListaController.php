@@ -15,7 +15,7 @@ class ListaController extends Controller
      */
     public function index()
     {
-        $listas = Lista::all();
+      return   $listas = Lista::all();
         return view('listas.index', compact('listas'));
     }
 
